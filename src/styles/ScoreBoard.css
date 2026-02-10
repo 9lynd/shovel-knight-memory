@@ -1,0 +1,26 @@
+.scoreboard {
+  display: flex;
+  gap: 40px;
+  background-color: #16213e;
+  border: 2px solid #6ec6f5;
+  padding: 16px 32px;
+  box-shadow: 0 0 12px #6ec6f540;
+}
+
+.score-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.score-label {
+  font-size: 0.45rem;
+  color: #a0a0c0;
+  letter-spacing: 1px;
+}
+
+.score-value {
+  font-size: 1.2rem;
+  color: #e2b96f;
+}
