@@ -34,3 +34,9 @@ body {
   margin-top: 10px;
   line-height: 1.8;
 }
+
+@media (max-width: 600px) {
+  .app-title {
+    font-size: 0.9rem;
+  }
+}

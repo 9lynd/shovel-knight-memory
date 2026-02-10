@@ -5,3 +5,9 @@
   max-width: 900px;
   width: 100%;
 }
+
+@media (max-width: 600px) {
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
