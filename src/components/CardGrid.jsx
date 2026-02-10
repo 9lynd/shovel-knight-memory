@@ -5,13 +5,13 @@ function CardGrid({ characters, onCardClick }) {
   return (
     <div className="card-grid">
       {
-        characters.map((character) => {
+        characters.map((character) => (
           <Card
             key={character.id}
             character={character}
             onCardClick={onCardClick}
           />
-        })
+        ))
       }
     </div>
   );
